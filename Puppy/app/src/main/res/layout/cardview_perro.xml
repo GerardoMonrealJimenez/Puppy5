@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_viwe="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_viwe:cardCornerRadius="@dimen/corner_radius"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:id="@+id/rvPerros"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgPerro"
+            android:src="@drawable/perro1"
+            android:scaleType="centerCrop"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageButton
+                android:layout_width="@dimen/bonew"
+                android:layout_height="@dimen/bonew"
+                android:background="@color/colorBlanco"
+                android:src="@drawable/bonew"
+                android:scaleType="centerCrop"
+                android:id="@+id/btnBoneW"
+                />
+
+            <TextView
+                android:layout_width="@dimen/left_likes"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvNomPerro"
+                android:text="@string/nombre_perro"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/nom_perro"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/tvLikes"
+
+                android:textSize="@dimen/nom_perro"
+                android:textStyle="bold"
+                android:layout_marginRight="@dimen/right_likes"
+                android:text="@string/likes"
+                />
+            <ImageView
+                android:layout_width="@dimen/bonew"
+                android:layout_height="@dimen/bonew"
+                android:id="@+id/imgBoneC"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bonec"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

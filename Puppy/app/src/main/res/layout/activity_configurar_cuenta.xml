@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_configurar_cuenta"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="mx.com.rteck.puppy.Configurar_cuenta">
+
+    <include android:id="@+id/miAccionBar"
+        layout="@layout/accionbar"
+        ></include>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvPetagram"
+            android:text="@string/titulo_petagram"
+            android:textSize="@dimen/titulo_petagram"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            />
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_cuenta"
+        >
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/inp_cuenta"
+            android:inputType="text"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/MibotonCuenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/inp_cuenta"
+        android:theme="@style/MiBotonRaised"
+        android:onClick="guardarCuenta"
+        />
+
+</LinearLayout>

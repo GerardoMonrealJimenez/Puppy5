@@ -1,0 +1,20 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="elevacion_ab">4dp</dimen>
+    <dimen name="corner_radius">4dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="bonew">45dp</dimen>
+    <dimen name="nom_perro">25dp</dimen>
+    <dimen name="left_likes">180dp</dimen>
+    <dimen name="right_likes">10dp</dimen>
+    <dimen name="img_circle">120dp</dimen>
+    <dimen name="circle_border">4dp</dimen>
+    <dimen name="nom_new">30dp</dimen>
+    <dimen name="titulo_bio">40dp</dimen>
+    <dimen name="titulos_prog">30dp</dimen>
+    <dimen name="contenido_prog">20dp</dimen>
+    <dimen name="titulo_petagram">40dp</dimen>
+
+</resources>

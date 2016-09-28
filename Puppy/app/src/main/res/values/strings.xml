@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Puppy</string>
+    <string name="titulo_top">Top</string>
+    <string name="titulo_detalles">Detalles</string>
+    <string name="nombre_perro">Firulais</string>
+    <string name="likes">5</string>
+    <string name="titulo_contacto">Contacto</string>
+    <string name="titulo_acerca">Acerca De</string>
+    <string name="input_nombre">Nombre</string>
+    <string name="input_email">Correo</string>
+    <string name="input_mensaje">Mensaje</string>
+    <string name="btn_siguiente">Enviar Comentario</string>
+    <string name="miperro">Newton</string>
+    <string name="titulo_programador">Gerardo Monreal</string>
+    <string name="programador">Nombre</string>
+    <string name="titulo_bio">Informacion</string>
+    <string name="titulo_empresa">Rtek</string>
+    <string name="empresa">Empresa</string>
+    <string name="menu_configurar">Configurar Cuenta</string>
+    <string name="titulo_petagram">Petagram</string>
+    <string name="inp_cuenta">Guardar Cuenta</string>
+    <string name="hint_cuenta">Escribe tu usuario</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
